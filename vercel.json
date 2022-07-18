@@ -1,6 +1,14 @@
 {
-  "version": 2,
-  "name": "Secrets",
-  "builds": [{ "src": "app.js", "use": "@vercel/node" }],
-  "routes": [{ "src": "/(.*)", "dest": "/app.js" }]
+    "builds": [
+        {
+            "src": "./app.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/app.js"
+        }
+    ]
 }
